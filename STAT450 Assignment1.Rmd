@@ -1,0 +1,28 @@
+---
+title: "STAT450"
+author: "Woo Lee"
+date: "January 11, 2018"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. My name is Woo Lee. I am really looking forward to create a nice document using R Markdown.
+
+2. My favourite equation is the following, because I always use it to calculate the mean:
+
+    $\frac{\sum_{i=1}^n X_i}{n}$
+
+3. My favourite dataset is "cars" because it is a small dataset built in R that I can readily use to demonstrate that I can make a plot.
+
+```{r}
+head(cars,5)
+
+plot(cars, type="o", col="blue")
+
+
+```
